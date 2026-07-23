@@ -1,7 +1,25 @@
 aid: axera-tech
-name: axera-tech
-description: axera-tech is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/axera-tech.png
+name: Axera Tech
+description: Axera Intelligence (爱芯元智), operating as Axera Tech, is a Chinese fabless
+  semiconductor company building AI-inference SoCs for edge and endpoint computing.
+  Its chips pair the Axera Tongyuan mixed-precision NPU with the Axera Zhimu AI-ISP
+  to power on-device vision perception, smart-vehicle autonomous-driving and intelligent-cabin
+  platforms, and multi-tier edge-AI inference across IoT and industrial scenarios.
+  Axera Tech was surfaced as a portfolio company of Qiming Venture Partners; it is
+  a hardware/silicon provider and does not currently publish a public developer API,
+  SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/axera-tech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Semiconductor
+- Artificial Intelligence
+- Edge Computing
+- NPU
+- AI Inference
+- Computer Vision
+- Automotive
+- Chips
+- IoT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,14 @@ maintainers:
 common:
 - type: Website
   url: https://axera-tech.com
+- type: Blog
+  url: https://axera-tech.com/zh-hans/news
+- type: Support
+  url: https://axera-tech.com/zh-hans/form/contact
+- type: DomainSecurity
+  url: security/axera-tech-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
